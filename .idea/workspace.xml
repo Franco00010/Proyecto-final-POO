@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="57a4280a-2fb8-40b2-937f-bc1f1ded779f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/apiguardian_api.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/controlsfx.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/controlsfx_11_2_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Proyecto-final-POO.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Proyecto-final-POO.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GUI_OOP/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/GUI_OOP/pom.xml" afterDir="false" />
-    </list>
+    <list default="true" id="57a4280a-2fb8-40b2-937f-bc1f1ded779f" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
