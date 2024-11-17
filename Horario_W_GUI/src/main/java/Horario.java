@@ -1,43 +1,30 @@
-import java.util.ArrayList;
-import java.util.List;
-
-// Clase horario, esta clase manejará o manipulará las clases ya creadas para generar un horario
 public class Horario {
-    private List<Clase> listaClases;
-    private List<String> horasLibres;
+    private String dia;
+    private String horaInicio;
+    private String horaFin;
+    private Asignatura asignatura;
+    private Profesor profesor;
 
-    public Horario() {
-        this.listaClases = new ArrayList<>();
-        this.horasLibres = new ArrayList<>();
-    }
-
-    public List<Clase> getListaClases() {
-        return listaClases;
-    }
-
-    public List<String> getHorasLibres() {
-        return horasLibres;
-    }
-
-    public void agregarClase(Clase nuevaClase) {
-        listaClases.add(nuevaClase);
-    }
-
-    public void eliminarClase(Clase clase) {
-        listaClases.remove(clase);
-    }
-
-    public void modificarHorario(Clase clase, String nuevaHoraInicio, String nuevaHoraFin, String nuevoDia) {
-        clase.cambiarHora(nuevaHoraInicio, nuevaHoraFin);
-        clase.cambiarDia(nuevoDia);
+    public Horario(String dia, String horaInicio, String horaFin, Asignatura asignatura, Profesor profesor) {
+        this.dia = dia;
+        this.horaInicio = horaInicio;
+        this.horaFin = horaFin;
+        this.asignatura = asignatura;
+        this.profesor = profesor;
     }
 
     @Override
     public String toString() {
-        StringBuilder sb = new StringBuilder();
-        for (Clase clase : listaClases) {
-            sb.append(clase.toString()).append("\n");
-        }
-        return sb.toString();
+        return "Horario{" +
+                "dia='" + dia + '\'' +
+                ", horaInicio='" + horaInicio + '\'' +
+                ", horaFin='" + horaFin + '\'' +
+                ", asignatura=" + asignatura.getNombre() +
+                ", profesor=" + profesor.getNombre() +
+                '}';
+    }
+
+    public Asignatura getAsignatura() {
+        return asignatura;
     }
 }
