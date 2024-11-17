@@ -1,3 +1,4 @@
+// Clase Clase, contiene todos los datos de la asignatura de la universidad
 public class Clase {
     private String nombre;
     private String profesor;

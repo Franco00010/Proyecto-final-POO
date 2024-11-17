@@ -1,3 +1,4 @@
+// Clase asignatura
 public class Asignatura {
     private String nombre;
 

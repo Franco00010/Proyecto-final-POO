@@ -1,6 +1,7 @@
 import java.util.ArrayList;
 import java.util.List;
 
+// Clase horario, esta clase manejará o manipulará las clases ya creadas para generar un horario
 public class Horario {
     private List<Clase> listaClases;
     private List<String> horasLibres;

@@ -1,5 +1,6 @@
 import java.util.List;
 
+// Calse estudiante, esta clase contiene todos los datos del estudiante registrado en la universidad
 public class Estudiante {
     private String carrera;
     private int semestre;
